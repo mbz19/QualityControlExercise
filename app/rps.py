@@ -6,7 +6,7 @@ import random
 # 2. FOLLOWED BY ANY CONSTANTS
 VALID_OPTIONS = ["rock", "paper", "scissors"]
 
-#3 functions or classes
+#3 FOLLOWED BY ANY FUNCTIONS OR CLASSES
 def determine_winner(u, c):
         if u == "rock" and c == "rock":
             #print("TIE GAME")
