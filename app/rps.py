@@ -1,11 +1,9 @@
+# ORGANIZATIONAL STRUCTURE OF OUR PYTHON FILE
 
-
-
-
-#1 imports at the
+# 1. IMPORTS AT THE TOP
 import random
 
-#2 followed by any constants
+# 2. FOLLOWED BY ANY CONSTANTS
 VALID_OPTIONS = ["rock", "paper", "scissors"]
 
 #3 functions or classes
