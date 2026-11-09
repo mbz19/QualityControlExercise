@@ -5,7 +5,7 @@
 #1 imports at the
 import random
 
-#followed by any cosntants 
+#2 followed by any constants
 VALID_OPTIONS = ["rock", "paper", "scissors"]
 
 #3 functions or classes
@@ -20,13 +20,13 @@ def determine_winner(u, c):
             #print("USER WINS")
             return "USER WINS"
         elif u == "paper" and c == "rock":
-            #print("COMPUTER WINS")
+            #print("USER WINS")
             return "USER WINS"
         elif u == "paper" and c == "paper":
             #print("TIE GAME")
             return "TIE GAME"
         elif u == "paper" and c == "scissors":
-            #print("USER WINS") # OOPS
+            #print("COMPUTER WINS")
             return "COMPUTER WINS"
         elif u == "scissors" and c == "rock":
             #print("COMPUTER WINS")
