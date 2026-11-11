@@ -14,11 +14,11 @@ def format_usd(price):
     return f"${price:.2f}"
 
 
-def fetch_stocks_csv(symbol="NFLX"):
+def fetch_stocks_csv(symbol="GOOG"):
     """Fetches stock data from the AlphaVantage API.
 
     Params:
-        symbol (str) like "NFLX"
+        symbol (str) like "GOOG"
 
     Return a pandas DataFrame with the time series data.
     """
@@ -31,7 +31,7 @@ if __name__ == "__main__":
 
     # FETCH THE DATA
 
-    symbol = input("Please choose a stock symbol: ") or "NFLX"
+    symbol = input("Please choose a stock symbol: ") or "GOOG"
 
     stocks_df = fetch_stocks_csv(symbol)
     print(stocks_df.head())
