@@ -1,8 +1,4 @@
-
-
-
-
-#1 imports at the
+#1 imports at the top
 import random
 
 #2 followed by any constants
