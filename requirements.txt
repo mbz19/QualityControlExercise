@@ -9,7 +9,7 @@ pytest
 # see: https://pypi.org/project/pandas/
 pandas
 
-#plotly
+plotly
 
 # we want to load env vars from the ".env" file so we need
 # the python-dotenv package
