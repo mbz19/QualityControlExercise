@@ -5,3 +5,17 @@
 #"and helps various files import from files in this directory"
 
 #"it can be empty, but it is a good practice to have it in the project"
+
+
+from flask import Flask
+
+from web_app.routes import main_routes
+
+def create_app():
+    app = Flask(__name__)
+    app.register_blueprint(main_routes)
+    return app
+
+if __name__ == "__main__":
+    my_app = create_app()
+    my_app.run(debug=True)
