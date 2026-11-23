@@ -1,5 +1,3 @@
- this is the "web_app/__init__.py" file...
-
 import os
 from dotenv import load_dotenv
 
