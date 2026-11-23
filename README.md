@@ -92,6 +92,7 @@ to run tests
 ```sh
 pytest
 ```
+
 ## Configuration
 
 The stocks functionality requires an AlphaVantage API key. Obtain a premium AlphaVantage API Key (using the [form](https://www.alphavantage.co/support/#api-key) or shared by the prof).
