@@ -3,6 +3,8 @@
 
 # 1. IMPORTS AT THE TOP
 import random
+def generate_random_choice():
+    return random.choice(VALID_OPTIONS)
 
 # 2. FOLLOWED BY ANY CONSTANTS
 VALID_OPTIONS = ["rock", "paper", "scissors"]
@@ -55,8 +57,10 @@ if __name__ == "__main__":
 
     # GENERATE RANDOM COMPUTER CHOICE
 
-    computer_choice = random.choice(VALID_OPTIONS)
+    #computer_choice = random.choice(VALID_OPTIONS)
+    computer_choice = generate_random_choice()
     print("COMP:", computer_choice)
+    
 
     # DETERMINE THE WINNER
 
