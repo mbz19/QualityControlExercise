@@ -10,8 +10,6 @@
 
 from flask import Flask
 
-create_app
-
 from web_app.routes.home_routes import home_routes
 from web_app.routes.rps_routes import rps_routes
 
